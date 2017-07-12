@@ -183,7 +183,7 @@ int main()
 	end_I2 = clock();
 
 	//---TIMES---
-	cout << endl << "RECURSION1 TIME: " << static_cast < double >(end_R1- start_R1) / CLOCKS_PER_SEC <<endl;
+	cout << endl << "RECURSION1 TIME: " << static_cast < double >(end_R1 - start_R1) / CLOCKS_PER_SEC <<endl;
 	cout << endl << "RECURSION2 TIME: " << static_cast < double >(end_R2 - start_R2) / CLOCKS_PER_SEC << endl;
 	cout << endl << "RECURSION3 TIME: " << static_cast < double >(end_R3 - start_R3) / CLOCKS_PER_SEC << endl;
 	cout << endl << "ITERATION1 TIME: " << static_cast < double >(end_I1 - start_I1) / CLOCKS_PER_SEC << endl;
