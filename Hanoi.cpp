@@ -8,7 +8,7 @@ using namespace std;
 
 void show(char s, char d)
 {
-	//cout << "Move disk from " << s << " to " << d << endl;
+	cout << "Move disk from " << s << " to " << d << endl;
 }
 void hanoi_rec(int n, char sour, char dest, char buff)
 {
